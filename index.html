@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Web App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Java Web App</h1>
+        <form id="userForm">
+            <label>Are you male?</label>
+            <input type="radio" name="isMale" value="true"> Yes
+            <input type="radio" name="isMale" value="false"> No
+            <br>
+            <label>Are you employed?</label>
+            <input type="radio" name="isEmployed" value="true"> Yes
+            <input type="radio" name="isEmployed" value="false"> No
+            <br>
+            <label>Are you younger than 40?</label>
+            <input type="radio" name="isYoungerThan40" value="true"> Yes
+            <input type="radio" name="isYoungerThan40" value="false"> No
+            <br>
+            <label>Do you like coding?</label>
+            <input type="radio" name="likesCoding" value="true"> Yes
+            <input type="radio" name="likesCoding" value="false"> No
+            <br>
+            <button type="button" onclick="submitForm()">Submit</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
