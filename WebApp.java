@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+package com.webapp;
 public class WebApp {
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {

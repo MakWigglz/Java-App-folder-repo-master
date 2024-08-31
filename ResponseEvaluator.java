@@ -1,5 +1,6 @@
+package com.webapp; 
 public class ResponseEvaluator {
-    public String evaluateResponses(boolean[] responses) {
+public String evaluateResponses(boolean[] responses) {
         String statement = "";
         String link = "";
 

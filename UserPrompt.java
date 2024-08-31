@@ -1,3 +1,4 @@
+package com.webapp;
 public class UserPrompt {
     private boolean isMale;
     private boolean isEmployed;
