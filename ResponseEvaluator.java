@@ -12,7 +12,8 @@ public String evaluateResponses(boolean[] responses) {
             link = "https://en.wikipedia.org/wiki/Young_male_employed_non_coder";
         }
         // Add more conditions for other combinations...
-
+        else {
+            statement = "You are not a young, not employed male who likes coding.";
         return statement + " Learn more: " + link;
     }
 }
