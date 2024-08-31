@@ -20,8 +20,4 @@ public class UserPrompt {
     public void setLikesCoding(boolean likesCoding) {
         this.likesCoding = likesCoding;
     }
-
-    public boolean[] getUserResponses() {
-        return new boolean[]{isMale, isEmployed, isYoungerThan40, likesCoding};
-    }
 }
