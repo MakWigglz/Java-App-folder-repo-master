@@ -14,6 +14,7 @@ public String evaluateResponses(boolean[] responses) {
         // Add more conditions for other combinations...
         else {
             statement = "You are not a young, not employed male who likes coding.";
+            }
         return statement + " Learn more: " + link;
     }
 }
