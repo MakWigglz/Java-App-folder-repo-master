@@ -4,6 +4,13 @@
             "type": "java",
             "name": "WebApp",
             "request": "launch",
+            "mainClass": "com.webapp.WebApp",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "WebApp",
+            "request": "launch",
             "mainClass": "WebApp",
             "projectName": "Java App folder:repo_e476a2fb"
         },
@@ -21,7 +28,7 @@
             "runtimeArgs": [
                 "--remote-debugging-port=9222"
             ],
-            "url": "/Users/amakki/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.5/out/startpage/index.html",
+            "url": "/Users/amakki/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.5/out/startpage/index.html", // Provide your project's url to finish configuring
             "presentation": {
                 "hidden": true
             }
@@ -34,7 +41,7 @@
                 "--headless",
                 "--remote-debugging-port=9222"
             ],
-            "url": "/Users/amakki/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.5/out/startpage/index.html",
+            "url": "/Users/amakki/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.5/out/startpage/index.html", // Provide your project's url to finish configuring
             "presentation": {
                 "hidden": true
             }
@@ -43,7 +50,7 @@
             "type": "vscode-edge-devtools.debug",
             "name": "Open Edge DevTools",
             "request": "attach",
-            "url": "/Users/amakki/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.5/out/startpage/index.html",
+            "url": "/Users/amakki/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.5/out/startpage/index.html", // Provide your project's url to finish configuring
             "presentation": {
                 "hidden": true
             }
