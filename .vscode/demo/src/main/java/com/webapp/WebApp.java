@@ -1,10 +1,11 @@
-import java.util.Scanner;
 package com.webapp;
+import java.util.Scanner;
+import java.util.Arrays; // Add this line to import the Arrays class
+
 public class WebApp {
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
             UserPrompt userPrompt = new UserPrompt();
-            ResponseEvaluator evaluator = new ResponseEvaluator();
 
             System.out.println("Are you male? (true/false)");
             userPrompt.setIsMale(scanner.nextBoolean());
@@ -19,7 +20,7 @@ public class WebApp {
             userPrompt.setLikesCoding(scanner.nextBoolean());
 
             boolean[] responses = userPrompt.getUserResponses();
-            String result = evaluator.evaluateResponses(responses);
+            String result = Arrays.toString(responses);
 
             System.out.println(result);
         }
