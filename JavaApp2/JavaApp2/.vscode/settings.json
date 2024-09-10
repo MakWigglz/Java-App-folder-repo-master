@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ],
+    "java.home": "java_home/Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home",
+    "jdk.advanced.disable.nbjavac": false
+}
