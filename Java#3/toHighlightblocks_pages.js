@@ -71,8 +71,7 @@ var hljs = new function () {
     }
 };
 
-/* 
-This is a JavaScript file that contains a set of helper functions for manipulating HTML elements and highlighting code blocks. The functions are encapsulated within an object literal (hljs), which is then used throughout the code.
+/*  This is a JavaScript file that contains a set of helper functions for manipulating HTML elements and highlighting code blocks. The functions are encapsulated within an object literal (hljs), which is then used throughout the code.
 
 Here's a brief explanation of the functions defined within the hljs object:
 
@@ -88,5 +87,4 @@ a(q): This function extracts the language identifiers from the className attribu
 c(q): This function traverses the child nodes of the provided element (q) and returns an array of objects containing information about the start and stop positions of highlighted code blocks.
 
 
-In summary, the selected code is a part of a JavaScript file that contains a set of helper functions for manipulating HTML elements and highlighting code blocks. The functions are encapsulated within an object literal (hljs), which is then used throughout the code. The specific functionality of the j(x, v, w) function is not fully defined in the provided code snippet.
-*/
+In summary, the selected code is a part of a JavaScript file that contains a set of helper functions for manipulating HTML elements and highlighting code blocks. The functions are encapsulated within an object literal (hljs), which is then used throughout the code. The specific functionality of the j(x, v, w) function is not fully defined in the provided code snippet.*/
