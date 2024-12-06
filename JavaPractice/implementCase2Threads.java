@@ -44,6 +44,7 @@ class MaksThrdObj {
         // This thread will transcend from runnable to run
         // as start() method will look for run() and execute
         // it
+        
         obj1.start();
 
         // This thread will now look for run() method which is absent
