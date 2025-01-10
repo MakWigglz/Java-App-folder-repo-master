@@ -1,0 +1,33 @@
+your Maven project for the Economic Indicators application looks good, but there are a few improvements we can make to ensure it's set up perfectly. Let's go through the changes:
+1.
+Update the groupId to match your package structure.
+2.
+Add the maven-compiler-plugin to ensure the correct Java version is used.
+3.
+Add the maven-assembly-plugin to create an executable JAR with dependencies.
+4.
+Specify the main class for the executable JAR.
+
+Changes and explanations:
+1.
+Updated groupId to com.github.MakWigglz to match your package structure.
+2.
+Added properties section to specify Java version and encoding.
+3.
+Updated the YahooFinanceAPI artifact ID to match the correct one on Maven Central.
+4.
+Added maven-compiler-plugin to ensure the correct Java version is used during compilation.
+5.
+Added maven-assembly-plugin to create an executable JAR with all dependencies included.
+6.
+Specified the main class com.github.MakWigglz.economicIndicators.StockDataJava for the executable JAR.
+With these changes, your Maven project is now set up perfectly. You can build your project using:
+mvn clean package
+This will create two JAR files in the target directory:
+1.
+economicIndicators-1.0-SNAPSHOT.jar (without dependencies)
+2.
+economicIndicators-1.0-SNAPSHOT-jar-with-dependencies.jar (with all dependencies included)
+You can run your application using:
+java -jar target/economicIndicators-1.0-SNAPSHOT-jar-with-dependencies.jar
+This setup ensures that your project is properly configured, easily buildable, and executable with all dependencies included.
